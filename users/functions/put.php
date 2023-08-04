@@ -9,7 +9,6 @@ if (isset($_GET['id'])) {
     sobrenome = '$data->sobrenome',
     email = '$data->email',
     nascimento = '$data->nascimento',
-    sexo = '$data->sexo'
     WHERE id = '$id'";
 
     if ($conn->query($sql)) {

@@ -1,4 +1,5 @@
 RewriteEngine on
-RewriteRule ^users/?$ ./users/api.php
-RewriteRule ^users/([0-9]+)?$ ./users/api.php?id=$1
+RewriteRule ^users/?$ users/api.php?
+RewriteRule ^users/([0-9]+)?$ users/api.php?id=$1
+
 

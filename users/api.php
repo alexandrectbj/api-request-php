@@ -1,6 +1,6 @@
 <?php
 
-require_once '../headers.php';
+require "../headers.php";
 require 'conexao.php';
 
 //pegar dados do banco de dados
@@ -10,6 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     include "./functions/post.php";
 } elseif ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     include "./functions/delete.php";
-} elseif ($_SERVER['REQUEST_METHOD'] === 'PUT') {
+} elseif ($_SERVER['REQUEST_METHOD'] === 'UPDATE') {
     include "./functions/put.php";
 }
