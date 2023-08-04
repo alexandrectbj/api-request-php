@@ -10,6 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     include "./functions/post.php";
 } elseif ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     include "./functions/delete.php";
-} elseif ($_SERVER['REQUEST_METHOD'] === 'UPDATE') {
+} elseif ($_SERVER['REQUEST_METHOD'] === 'PUT') {
     include "./functions/put.php";
 }
